@@ -82,14 +82,38 @@ header h2 {
   font-size: 1rem;
   font-weight: 500;
   transition: all 0.2s ease;
+  text-align: left;
+}
+
+.link-label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.link-summary {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  margin: 0;
+  margin-top: 0.5rem;
 }
 
 .link-item a:hover {
   border-color: var(--accent-color);
-  color: var(--accent-color);
   transform: translateY(-2px);
   box-shadow: 0 4px 6px -1px rgba(139, 92, 246, 0.3);
   background-color: #1f1f1f;
+}
+
+.link-item a:hover .link-label {
+  color: var(--accent-color);
+}
+
+.link-item a:hover .link-summary {
+  color: var(--text-secondary);
 }
 
 @media (max-width: 640px) {

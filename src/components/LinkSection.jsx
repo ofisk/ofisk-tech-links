@@ -6,7 +6,12 @@ function LinkSection({ title, links }) {
       <h3 className="link-section-title">{title}</h3>
       <ul className="links-list">
         {links.map((link, index) => (
-          <LinkItem key={index} label={link.label} url={link.url} />
+          <LinkItem 
+            key={index} 
+            label={link.label} 
+            url={link.url} 
+            summary={link.summary}
+          />
         ))}
       </ul>
     </div>
