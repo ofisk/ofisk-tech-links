@@ -15,7 +15,8 @@ function App() {
     },
     {
       label: 'LoreSmith',
-      url: 'https://loresmith-ai.oren-t-fisk.workers.dev/'
+      url: 'https://loresmith-ai.oren-t-fisk.workers.dev/',
+      summary: 'A full-stack web application built on Cloudflare Workers with React, leveraging GraphRAG for intelligent document processing and retrieval-augmented generation. The platform uses D1, R2, and Durable Objects for state management, enabling real-time campaign orchestration and processing of large rulebook documents (up to 500MB) with contextual AI assistance and character integration.'
     }
   ]
 
