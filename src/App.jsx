@@ -21,17 +21,17 @@ function App() {
 
   const adobeLinks = [
     {
-      label: 'GenStudio for Performance Marketing',
+      label: 'Adobe - GenStudio for Performance Marketing',
       url: 'https://business.adobe.com/products/genstudio-for-performance-marketing.html?s_iid=7015Y000003t3H0QAI&s_cid=701Ke0000004qe8IAA&sdid=Z9X3FC66&mv=search&edtamo=true&s_kwcid=AL!3085!3!757296738213!e!!g!!genstudio%20for%20performance%20marketing!22662564427!180434505803&ef_id=CjwKCAiA8vXIBhAtEiwAf3B-gyavRAEujk1LVv5fR-eTytRArH_tBnAAB1q7-ybCn-QvIo1rt4KIaBoCWh8QAvD_BwE:G:s&gad_source=1&gad_campaignid=22662564427&gbraid=0AAAAADOODJQDBSplsEg7OmAc4-tLACKwz&gclid=CjwKCAiA8vXIBhAtEiwAf3B-gyavRAEujk1LVv5fR-eTytRArH_tBnAAB1q7-ybCn-QvIo1rt4KIaBoCWh8QAvD_BwE',
       summary: 'An AI-powered platform that enables marketing teams to generate, optimize, and scale performance marketing content at speed. GenStudio combines generative AI with Adobe\'s marketing expertise to help teams create high-performing ad creatives, copy, and campaigns that drive better ROI.'
     },
     {
-      label: 'Live Search',
+      label: 'Adobe - Live Search',
       url: 'https://experienceleague.adobe.com/en/docs/commerce/live-search/overview',
       summary: 'A lightweight SaaS-based search solution that replaces standard search in Adobe Commerce with AI-powered capabilities. Live Search provides dynamic faceting, intelligent re-ranking based on shopper behavior, and real-time search-as-you-type results to help customers find products quickly and effortlessly.'
     },
     {
-      label: 'Product Recommendations',
+      label: 'Adobe - Product Recommendations',
       url: 'https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/overview',
       summary: 'An AI-driven recommendation engine that uses machine learning to deliver personalized product suggestions across the shopping experience. The service analyzes shopper behavior, purchase history, and product relationships to surface relevant recommendations that increase engagement and conversion rates.'
     },
