@@ -4,7 +4,7 @@ import LinkSection from './components/LinkSection'
 import './App.css'
 
 function App() {
-  const personalLinks = [
+  const socialLinks = [
     {
       label: 'LinkedIn',
       url: 'https://www.linkedin.com/in/orenfisk'
@@ -12,7 +12,10 @@ function App() {
     {
       label: 'GitHub',
       url: 'https://github.com/ofisk'
-    },
+    }
+  ];
+
+  const personalLinks = [
     {
       label: 'LoreSmith',
       url: 'https://loresmith-ai.oren-t-fisk.workers.dev/',
@@ -58,7 +61,8 @@ function App() {
       <div className="container">
         <Header />
         <Bio />
-        <LinkSection title="Personal" links={personalLinks} />
+        <LinkSection title="Social" links={socialLinks} />
+        <LinkSection title="Personal Projects" links={personalLinks} />
         <LinkSection title="Professional Projects" links={adobeLinks} />
       </div>
     </div>
